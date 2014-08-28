@@ -29,3 +29,20 @@
 .tabular p#hiddenJournalView label {
 	width: 40%;
 }
+
+
+.privateHide {
+	background: #ff0000;
+	display: inline;
+	padding: 3px 5px 2px 2px;
+	border-radius: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+.privateHide input {
+	padding: 0 !important;
+    vertical-align: middle;
+    margin-top: -2px;
+}
