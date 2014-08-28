@@ -1,7 +1,8 @@
 # Redmine Hidejournal Plugin
 
 This plugin hides newly added journals by default (only when user is allowed to view **private notes**)
-A additional button is show on the journal listing to show/hide each journal
+
+A additional button is shown on the journal listing to show/hide each journal
 
 ## Tested with the following setup
 
