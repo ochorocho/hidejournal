@@ -1,0 +1,31 @@
+.hiddenJournalView {
+    float: right;
+    margin-left: 5px;
+    margin-top: 0px;
+    text-align: right;
+	margin-right: -9px;
+	width: 18px;
+	height: 20px;
+}
+
+.hiddenJournalView a {
+    background: url("../images/light_on.png") right top no-repeat;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	display: inline-block;
+	width: 18px;
+	height: 19px;
+}
+
+.hiddenJournalView a.visible {
+    background: url("../images/light_off.png") right top no-repeat;	
+}
+
+.hiddenJournalView a.invisible {
+    background: url("../images/light_on.png") right top no-repeat;
+}
+
+.tabular p#hiddenJournalView label {
+	width: 40%;
+}

@@ -1,0 +1,10 @@
+<p id="hiddenJournal">
+	<label for="set_to_private">
+		<% if journal.private_notes? %>
+			 <%= check_box_tag :settoprivate, 1, :checked => true %>
+		<% else %>
+			 <%= check_box_tag :settoprivate %>
+		<% end %>
+		<%= l(:label_changes_private) %>		
+	</label>
+</p>

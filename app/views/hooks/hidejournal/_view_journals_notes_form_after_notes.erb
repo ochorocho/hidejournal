@@ -1,0 +1,12 @@
+<% if User.current.allowed_to?(:view_private_notes, @project) %>
+<p id="hiddenJournal">
+	<label for="settoprivate">
+		<% if journal.private_notes? %>
+			 <%= check_box_tag :settoprivate, 1, :checked => true %>
+		<% else %>
+			 <%= check_box_tag :settoprivate %>
+		<% end %>
+		<%= l(:label_changes_private) %>
+	</label>
+</p>
+<% end %>

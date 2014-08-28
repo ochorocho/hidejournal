@@ -1,0 +1,14 @@
+
+<%= debug(@journals) %>
+
+<p id="hiddenJournal">
+	<label for="issue_settoprivate">
+		<%= check_box_tag :issue_settoprivate, 1, :checked => true %>
+		<%= l(:label_changes_private) %>
+	</label>
+</p>
+
+<script type="text/javascript">
+	// TICK CHECKBOX BY DEFAULT
+	$('#issue_settoprivate').attr('checked', true);
+</script>

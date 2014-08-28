@@ -1,0 +1,6 @@
+# English strings go here for Rails i18n
+en:
+  # my_label: "My label"
+  label_changes_private: "Set changes to private"
+  title_disable: "Set to private"
+  title_enable: "Set to public"

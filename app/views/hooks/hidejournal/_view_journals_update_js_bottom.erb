@@ -1,0 +1,7 @@
+<% if User.current.allowed_to?(:view_private_notes, @project) %>
+	<% if @journal.private_notes? %>
+		$("#change-<%= @journal.id %>").addClass('private-notes');
+	<% else %>
+		$("#change-<%= @journal.id %>").removeClass('private-notes');
+	<% end %>
+<% end %>
