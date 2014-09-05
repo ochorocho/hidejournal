@@ -1,5 +1,8 @@
 require 'redmine'
 
+# Patches to the Redmine core. Will not work in development mode
+require_dependency 'journal_patch'
+
 Redmine::Plugin.register :hidejournal do
   name 'Hidejournal plugin'
   author 'Jochen Roth'

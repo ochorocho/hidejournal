@@ -2,7 +2,11 @@ class HideController < ApplicationController
 	unloadable
 	
 	def index
-		if User.current.logged?
+	
+#		if User.current.allowed_to?(:view_private_notes, @project)
+	
+#		if User.current.logged?
+		if User.currrent.allowed_to?(:view_private_notes, journalized.project)
 			if !params[:journal].nil?
 				@journalHide = Journal.find(params[:journal])
 				if @journalHide.private_notes?
