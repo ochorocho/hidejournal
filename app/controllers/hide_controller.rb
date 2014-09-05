@@ -2,13 +2,12 @@ class HideController < ApplicationController
 	unloadable
 	
 	def index
-	
-#		if User.current.allowed_to?(:view_private_notes, @project)
-	
-#		if User.current.logged?
-		if User.currrent.allowed_to?(:view_private_notes, journalized.project)
+		
+		@journalHide = Journal.find(params[:journal])
+		@issue = Issue.find(@journalHide.journalized_id)
+
+		if User.current.allowed_to?(:view_private_notes, @issue.project)
 			if !params[:journal].nil?
-				@journalHide = Journal.find(params[:journal])
 				if @journalHide.private_notes?
 					@journalAjax = ['status' => 'success', 'changed_to' => 'false']
 					
@@ -19,8 +18,7 @@ class HideController < ApplicationController
 	
 					@journalHide.private_notes = '1'
 					@journalHide.save
-				end
-				
+				end				
 			else
 				@journalAjax = ['status' => 'error']
 			end 
