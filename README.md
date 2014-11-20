@@ -6,9 +6,9 @@ A additional button is shown on the journal listing to show/hide each journal
 
 ## Tested with the following setup
 
-* Redmine version 2.5.1.stable
+* Redmine version 2.5.1.stable / 2.6.0.stable
 * Ruby version 2.1.2-p95 (2014-05-08) [x86_64-linux]
-* Rails version 3.2.17
+* Rails version 3.2.17 / 3.2.19
 
 
 ## Installation
