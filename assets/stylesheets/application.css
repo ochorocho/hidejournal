@@ -1,37 +1,36 @@
-.hiddenJournalView {
+.hidden_journal_view {
     float: right;
     margin-left: 5px;
-    margin-top: 0px;
+    margin-top: 0;
     text-align: right;
 	margin-right: -9px;
 	width: 18px;
 	height: 20px;
 }
 
-.hiddenJournalView a {
-    background: url("../images/light_on.png") right top no-repeat;
+.hidden_journal_view a {
 	position: relative;
-	top: 0px;
-	right: 0px;
+	top: 0;
+	right: 0;
 	display: inline-block;
 	width: 18px;
 	height: 19px;
 }
 
-.hiddenJournalView a.visible {
-    background: url("../images/light_off.png") right top no-repeat;	
+.hidden_journal_view .visible {
+    background: url('../images/light_off.png') right top no-repeat;	
 }
 
-.hiddenJournalView a.invisible {
-    background: url("../images/light_on.png") right top no-repeat;
+.hidden_journal_view .invisible {
+    background: url('../images/light_on.png') right top no-repeat;
 }
 
-.tabular p#hiddenJournalView label {
+.tabular p#hidden_journal_view label {
 	width: 40%;
 }
 
 
-.privateHide {
+.private_hide {
 	background: #ff0000;
 	display: inline;
 	padding: 3px 5px 2px 2px;
@@ -41,7 +40,7 @@
 }
 
 
-.privateHide input {
+.private_hide input {
 	padding: 0 !important;
     vertical-align: middle;
     margin-top: -2px;

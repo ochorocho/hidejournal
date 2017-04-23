@@ -4,7 +4,7 @@
 		JOURNAL_ENABLE = "<%= l(:title_enable) %>";
 	</script>
 	
-	<span class="hiddenJournalView">
+	<span class="hidden_journal_view">
 		<% if journal.private_notes? %>
 			<%= link_to "", {:controller => "hide", :action => "index", :journal => journal.id}, :class => "visible", :title => l(:title_enable) %>
 		<% else %>

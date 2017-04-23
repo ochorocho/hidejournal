@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.hiddenJournalView a').click(function(e) {
+	$('.hidden_journal_view a').click(function(e) {
 		e.preventDefault();
 		var href = $(this).attr('href').split('?');
 		var url = href[0];
@@ -22,7 +22,7 @@ $(document).ready(function() {
 					$(journal).removeClass("visible").addClass("invisible").attr('title', JOURNAL_DISABLE);
 				}
 			},
-			error: function(data) {
+			error: function() {
 				alert('Error: Please reload!');
 			}
 		});
