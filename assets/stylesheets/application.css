@@ -30,7 +30,7 @@
 }
 
 
-.private_hide {
+.private-hide {
 	background: #ff0000;
 	display: inline;
 	padding: 3px 5px 2px 2px;
@@ -40,7 +40,7 @@
 }
 
 
-.private_hide input {
+.private-hide input {
 	padding: 0 !important;
     vertical-align: middle;
     margin-top: -2px;

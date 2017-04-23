@@ -1,7 +1,7 @@
 <% if User.current.allowed_to?(:view_private_notes, @project) %>
 	<script type="text/javascript">
 		// TICK CHECKBOX BY DEFAULT
-		$('#issue_private_notes').next().andSelf().wrapAll('<div class="privateHide" />');
+		$('#issue_private_notes').next().andSelf().wrapAll('<div class="private-hide" />');
 		$('#issue_private_notes').attr('checked', true);
 	</script>
 <% end %>
