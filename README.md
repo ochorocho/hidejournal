@@ -16,14 +16,8 @@ A additional button is shown on the journal listing to show/hide each journal
 _Clone repository:_
 
 ```
+cd /your/redmine/root/plugins
 git clone https://github.com/ochorocho/hidejournal.git
-```
-
-_Run migration:_
-
-```
-cd /your/redmine/root/
-rake redmine:plugins:migrate RAILS_ENV=production
 ```
 
 _Restart Redmine:_
