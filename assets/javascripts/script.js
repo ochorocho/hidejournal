@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.hidden_journal_view a').click(function(e) {
+	$('.hidden-journal-view a').click(function(e) {
 		e.preventDefault();
 		var href = $(this).attr('href').split('?');
 		var url = href[0];

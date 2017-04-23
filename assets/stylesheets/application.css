@@ -1,4 +1,4 @@
-.hidden_journal_view {
+.hidden-journal-view {
     float: right;
     margin-left: 5px;
     margin-top: 0;
@@ -8,7 +8,7 @@
 	height: 20px;
 }
 
-.hidden_journal_view a {
+.hidden-journal-view a {
 	position: relative;
 	top: 0;
 	right: 0;
@@ -17,15 +17,15 @@
 	height: 19px;
 }
 
-.hidden_journal_view .visible {
+.hidden-journal-view .visible {
     background: url('../images/light_off.png') right top no-repeat;	
 }
 
-.hidden_journal_view .invisible {
+.hidden-journal-view .invisible {
     background: url('../images/light_on.png') right top no-repeat;
 }
 
-.tabular p#hidden_journal_view label {
+.tabular .hidden-journal-view label {
 	width: 40%;
 }
 
