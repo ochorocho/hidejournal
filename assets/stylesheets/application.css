@@ -3,22 +3,22 @@
     margin-left: 5px;
     margin-top: 0;
     text-align: right;
-	margin-right: -9px;
-	width: 18px;
-	height: 20px;
+    margin-right: -9px;
+    width: 18px;
+    height: 20px;
 }
 
 .hidden-journal-view a {
-	position: relative;
-	top: 0;
-	right: 0;
-	display: inline-block;
-	width: 18px;
-	height: 19px;
+    position: relative;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 18px;
+    height: 19px;
 }
 
 .hidden-journal-view .visible {
-    background: url('../images/light_off.png') right top no-repeat;	
+    background: url('../images/light_off.png') right top no-repeat;
 }
 
 .hidden-journal-view .invisible {
@@ -26,22 +26,20 @@
 }
 
 .tabular .hidden-journal-view label {
-	width: 40%;
+    width: 40%;
 }
 
-
 .private-hide {
-	background: #ff0000;
-	display: inline;
-	padding: 3px 5px 2px 2px;
-	border-radius: 2px;
+    background: #ff0000;
+    display: inline;
+    padding: 3px 5px 2px 2px;
+    border-radius: 2px;
     text-transform: uppercase;
     color: #ffffff;
 }
 
-
 .private-hide input {
-	padding: 0 !important;
+    padding: 0;
     vertical-align: middle;
     margin-top: -2px;
 }
