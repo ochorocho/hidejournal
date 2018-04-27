@@ -3,7 +3,7 @@ module Hidejournal
     class ViewLayoutsBaseHtmlHeadHook < Redmine::Hook::ViewListener
       def view_layouts_base_html_head(context={})
 		  content = stylesheet_link_tag('application', :plugin => 'hidejournal')
-		  content += javascript_include_tag('script.js', :plugin => 'hidejournal')
+		  content += javascript_include_tag('app.js', :plugin => 'hidejournal')
       end
     end
   end
